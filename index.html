@@ -306,15 +306,20 @@ function selectCategory(categoria) {
 }
 </script>  
 <style>
-  footer {
-    background-color: black;
+ footer {
+background-color: rgba(0, 0, 0, 0.51);  backdrop-filter: blur(10px);
     color: white;
     text-align: center;
-    padding: 10px; /* Ajuste conforme necessário */
-  }
+    padding: 10px; 
+    width: 100%;
+    box-sizing: border-box;
+    position: absolute;
+    bottom: 0;
+    z-index: 6;
+}
 
   footer p {
-    margin: 8px 0; /* Adiciona um pequeno espaçamento entre os parágrafos */
+    margin: 8px 0; 
   }
 
   ul {
@@ -330,15 +335,15 @@ function selectCategory(categoria) {
 
   a {
     color: white;
-    background-color: black;
+    background-color: rgba(0, 0, 0, 0.51);  backdrop-filter: blur(10px);
     border-radius: 50%;
-    padding: 10px;
+    padding: 5px;
     text-decoration: none;
-  }
+  } 
 </style>
 
 <footer>
-  <p>Copyright © 2023</p>
+  <p>Copyright © 2024</p>
   <p>Desenvolvido por Lucas Nathan</p>
   <ul>
     <li><a href="https://wa.me/557192920032" target="_blank"><i class="fab fa-whatsapp"></i></a></li>
